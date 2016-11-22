@@ -1,0 +1,122 @@
+@font-face {
+    font-family: 'GothamBold';
+    src: url('../fonts/gothambold.eot');
+    src: url('../fonts/gothambold.svg#GothamBold') format('svg'),url('../fonts/gothambold.eot?iefix') format('eot'),url('../fonts/gothambold.woff') format('woff'),url('../fonts/gothambold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal
+}
+
+@font-face {
+    font-family: 'GothamBook';
+    src: url('../fonts/gothambook.eot');
+    src: url('../fonts/gothambook.svg#GothamBook') format('svg'),url('../fonts/gothambook.eot?iefix') format('eot'),url('../fonts/gothambook.woff') format('woff'),url('../fonts/gothambook.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal
+}
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  font-family: "GothamBold",Helvetica,Arial,sans-serif;
+
+}
+
+.container-fluid {
+  padding: 0 !important;
+}
+
+.jumbotron {
+  background-image: url("../img/bg.jpeg") !important;
+  background-size: cover;
+  margin-bottom: 0;
+}
+
+#title {
+  color: white;
+  margin-top: 300px;
+}
+
+a {
+  font-family: 'GothamBook';
+  color: #222;
+
+}
+a:hover {
+    color: #f5f5f5;
+    transition: 1s;
+}
+
+.lead-p {
+  font-family: 'GothamBook';
+  color: #fff;
+  font-size: 18px;
+  font-weight: 300;
+}
+
+.nav-text {
+  font-weight: 300 !important;
+}
+
+.navbar {
+background-color: rgba(255,255,255,0.8)!important
+}
+
+.flat-butt {
+  display: inline-block;
+  margin: 0 5px;
+  border-radius: 6px;
+  font-family: 'GothamBook';
+  font-size: 16.5px;
+  padding: 12px 20px;
+  border: 0;
+  background: #1abc9c;
+  color: #FFF;
+  cursor: pointer;
+  outline: 0;
+}
+
+.flat-butt:hover {
+  background: orange;
+  transition: 0.70s;
+}
+
+.scroll-btn {
+  text-decoration: none !important;
+}
+
+.services {
+  background-color: #f5f5f5;
+}
+
+.h1-header {
+  font-family: 'GothamBook';
+  padding-top: 50px;
+  padding-bottom: 25px;
+}
+
+
+.hr-mini {
+  width: 40%;
+  background-color: #ccc !important;
+  height: 2px !important;
+}
+
+.icon-holder {
+  font-size: 3.5em;
+  color: #fff;
+}
+
+.circle{
+  background-color: #1abc9c;
+  border-radius: 100%;
+  width: 120px;
+  height: 120px;
+  display: table;
+}
+
+.fa {
+  vertical-align: middle;
+  display: table-cell;
+  text-align: center;
+
+}
