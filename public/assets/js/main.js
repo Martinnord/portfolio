@@ -12,6 +12,14 @@ $('#scrollDown').click(function(){
 
 });
 
+$(function() {
+  $("#title").typed({
+    strings: ["Hi, I'm Martin"],
+    typeSpeed: 1000
+  });
+});
+
+//$(".").css("font-size": "20px;");
 
 
 }); // Ready ends here
