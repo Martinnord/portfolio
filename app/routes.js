@@ -10,9 +10,13 @@ router.get('/', function(req, res){
   res.render('index');
 });
 
+router.get('/../views/partials/services', function(req, res) {
+  res.render(console.log("HELLO"));
+});
+
 // Route to About,
 router.get('/about', function(req, res){
-  res.send('About here!');
+  res.send("about here");
 });
 
 // Route to contact
