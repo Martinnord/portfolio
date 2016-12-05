@@ -54,5 +54,18 @@
     width: 200px !important;
   }
 
+  .br {
+    height: 50px;
+  }
+
+  .social-links {
+    margin: 0 10px 0 10px;
+    color: white;
+  }
+
+  a:-webkit-any-link{
+    text-decoration:none !important;
+  }
+
 
 }
