@@ -12,14 +12,23 @@ $('#scrollDown').click(function(){
 
 });
 
+$(".scroll").click(function() {
+    $('html,body').animate({
+        scrollTop: $('.work').offset().top
+    }, 1000);
+});
+
+$(function () {
+  $('.navbar-collapse ul li a:not(.dropdown-toggle)').on('click ', function() {
+  $('.navbar-toggle:visible').click();
+      });
+});
+
 $(function() {
   $("#title").typed({
     strings: [""],
     typeSpeed: 0
   });
 });
-
-//$(".").css("font-size": "20px;");
-
 
 }); // Ready ends here

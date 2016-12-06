@@ -266,6 +266,11 @@ p {
   margin: 0 25px 0 25px;
 }
 
-a:-webkit-any-link{
+a:-webkit-any-link {
 text-decoration:none !important;
+}
+
+#drop-down {
+  transition: all 0.5s ease;
+  border-radius: 0 !important;
 }
