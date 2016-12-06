@@ -12,11 +12,16 @@ $('#scrollDown').click(function(){
 
 });
 
-$(".scroll").click(function() {
-    $('html,body').animate({
-        scrollTop: $('.work').offset().top
-    }, 1000);
+function navigateToSection(element) {
+  $('html, body').animate({
+    scrollTop: $(element).offset().top
+  }, 1000);
+}
+
+$('.scroll').on('click', function(e) {
+  navigateToSection(e.currentTarget.attributes[0].nodeValue);
 });
+
 
 $(function () {
   $('.navbar-collapse ul li a:not(.dropdown-toggle)').on('click ', function() {
