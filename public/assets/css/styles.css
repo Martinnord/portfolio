@@ -22,7 +22,6 @@ body, body {
 
 }
 
-
 .container-fluid {
   padding: 0 !important;
 }
@@ -159,7 +158,7 @@ background-color: rgba(255,255,255,0.8)!important
 
 }
 
-.fa:hover {
+.icon:hover {
   transition: all 0.5s ease;
   color: #222;
 }
