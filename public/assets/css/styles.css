@@ -35,8 +35,8 @@ body, body {
 #title {
   color: #fff;
   margin-top: 300px;
-  display: inline-block;
-  letter-spacing: 5px;
+  display: inline-block !important;
+  letter-spacing: 3px;
 }
 
 .navbar-a {

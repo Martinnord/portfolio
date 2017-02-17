@@ -31,8 +31,8 @@ $(function () {
 
 $(function() {
   $("#title").typed({
-    strings: [""],
-    typeSpeed: 0
+    strings: ["Hello I'm Martin", "I am an iOS developer"],
+    typeSpeed: 70
   });
 });
 
